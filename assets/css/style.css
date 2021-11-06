@@ -1,6 +1,9 @@
-* {
-    
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     background-color:black;
     color: white;
@@ -9,7 +12,6 @@ body {
 
 header {
     background-color:dimgray;
-    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -17,13 +19,19 @@ header {
 
 header h1 {
     font-family: cursive;
-    font-size: 48px;
+    font-size: 64px;
     font-weight: bold;
+    margin: 0 0 0 10px;
+    
 }
 
 header a {
     text-decoration: none;
     color: white;
+}
+
+header nav {
+    margin: auto 0;
 }
 
 header nav ul {
@@ -34,12 +42,26 @@ header nav ul {
     list-style: none;
 }
 
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
 .section-title {
     color:sienna;
-    text-align: center;
-    width: 40%;
+    text-align: left;
     border-top: sienna 3px solid;
-    margin: 25px auto 10px auto;
+    margin: 25px auto 10px 10px;
     padding-top: 20px;
-    
+    width: 40%;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: dimgray;
+}
+
+footer {
+    font-size: 26px;
 }
