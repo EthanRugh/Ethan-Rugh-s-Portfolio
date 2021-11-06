@@ -51,11 +51,10 @@ header nav ul li a {
 .section-title {
     color:sienna;
     text-align: left;
-    border-top: sienna 3px solid;
+    border-bottom: sienna 3px solid;
     margin: 25px auto 10px 10px;
-    padding-top: 20px;
+    padding-bottom: 10px;
     width: 40%;
-    text-decoration: underline;
 }
 
 footer {
