@@ -19,7 +19,7 @@ header {
 
 header h1 {
     font-family: cursive;
-    font-size: 64px;
+    font-size: auto;
     font-weight: bold;
     margin: 0 0 0 10px;
     
@@ -45,7 +45,7 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-    font-size: 1.55vw;
+    font-size: 2.55vw;
 }
 
 .section-title {
@@ -63,4 +63,14 @@ footer {
 
 footer {
     font-size: 26px;
+}
+
+section {
+    padding: 60px;
+}
+
+.jumbo {
+    background-image: url("../images/Coding-img.jpg");
+    background-size: cover;
+    background-position: 80%;
 }
