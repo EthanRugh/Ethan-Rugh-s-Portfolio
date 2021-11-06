@@ -1,0 +1,45 @@
+* {
+    
+}
+body {
+    background-color:black;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color:dimgray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-family: cursive;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.section-title {
+    color:sienna;
+    text-align: center;
+    width: 40%;
+    border-top: sienna 3px solid;
+    margin: 25px auto 10px auto;
+    padding-top: 20px;
+    
+}
