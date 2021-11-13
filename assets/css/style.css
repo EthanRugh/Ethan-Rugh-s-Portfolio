@@ -52,7 +52,7 @@ header nav ul li a {
     color:sienna;
     text-align: left;
     border-bottom: sienna 3px solid;
-    margin: 25px auto 10px 10px;
+    margin: 0 auto 10px 10px;
     padding-bottom: 10px;
     width: 40%;
 }
@@ -66,11 +66,51 @@ footer {
 }
 
 section {
-    padding: 60px;
+    padding: 20px 60px 20px 60px;
 }
 
 .jumbo {
     background-image: url("../images/Coding-img.jpg");
     background-size: cover;
     background-position: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 100px 0 100px 0;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.project {
+    border: yellow 3px solid;
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.profile {
+    display: flex;
+    flex-wrap: nowrap;
+    border: yellow 5px solid;
+}
+
+.profile img {
+    width: 30%;
+}
+
+.profile p {
+    border: yellow 5px solid;
+    width: 300px;
+    margin-left: 10px;
+}
+
+.about {
+    border: yellow 5px solid;
 }
