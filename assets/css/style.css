@@ -6,7 +6,7 @@
 
 body {
     background-color:black;
-    color: white;
+    color:sienna;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -22,12 +22,13 @@ header h1 {
     font-size: auto;
     font-weight: bold;
     margin: 0 0 0 10px;
+    color:purple
     
 }
 
 header a {
     text-decoration: none;
-    color: white;
+    color: purple;
 }
 
 header nav {
@@ -49,9 +50,9 @@ header nav ul li a {
 }
 
 .section-title {
-    color:sienna;
+    color:skyblue;
     text-align: left;
-    border-bottom: sienna 3px solid;
+    border-bottom: skyblue 3px solid;
     margin: 0 auto 10px 10px;
     padding-bottom: 10px;
     width: 40%;
@@ -59,10 +60,11 @@ header nav ul li a {
 
 footer {
     background-color: dimgray;
+    color: purple;
 }
 
 footer {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 section {
@@ -87,7 +89,6 @@ section {
 }
 
 #run {
-    border: yellow 3px solid;
     width: 400px;
     height: 300px;
     margin-top: 30px;
@@ -96,7 +97,6 @@ section {
 }
 
 #horiseon {
-    border: yellow 3px solid;
     width: 400px;
     height: 300px;
     margin-top: 30px;
@@ -105,35 +105,40 @@ section {
 }
 
 #resume {
-    border: yellow 3px solid;
     width: 400px;
     height: 300px;
     margin-top: 30px;
-    background-image: url("");
+    background-image: url("../images/resume-pic.png");
     background-size: cover; 
 }
 
-#project {
-    border: yellow 3px solid;
+#robo {
     width: 400px;
     height: 300px;
     margin-top: 30px;
-    background-image: url("");
+    background-image: url("../images/robo-gladiators-pic.png");
     background-size: cover; 
 }
 
 .profile {
     display: flex;
-    flex-wrap: nowrap;
-    border: yellow 5px solid;
 }
 
 .profile img {
-    width: 30%;
+    width: 300px;
+    height: 300px;
+    background-size: cover;
 }
 
 .profile p {
-    border: yellow 5px solid;
     width: 300px;
     margin-left: 10px;
+}
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+
+    .profile {
+        flex-wrap: wrap;
+    }
 }
